@@ -16,7 +16,7 @@ function App() {
       <div className="App">
         <Header></Header>
         <Routes>
-          <Route path="/" element={<> <p>{t("This is the front page")}</p> </> } />
+          <Route path="/" element={<> <p>{t("This is the front page")}</p> <MyContainer></MyContainer> </> } />
           <Route path="/about" element={<About />} />
         </Routes>
         
