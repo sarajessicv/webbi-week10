@@ -26,7 +26,7 @@ function App() {
         <Routes>
           <Route path="/" element={<>
             <p>{t("This is the front page")}</p>
-            <div>{ hocComponent() }</div>
+            <p>{ hocComponent }</p>
             <MyContainer></MyContainer>
           </>} />
           <Route path="/about" element={<About />} />
